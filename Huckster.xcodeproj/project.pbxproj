@@ -8,13 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		A13061401BF2750B0012AB3D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A130613F1BF2750B0012AB3D /* AppDelegate.swift */; };
-		A13061421BF2750B0012AB3D /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A13061411BF2750B0012AB3D /* FirstViewController.swift */; };
-		A13061441BF2750B0012AB3D /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A13061431BF2750B0012AB3D /* SecondViewController.swift */; };
+		A13061421BF2750B0012AB3D /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A13061411BF2750B0012AB3D /* HomeViewController.swift */; };
+		A13061441BF2750B0012AB3D /* TextbookFinderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A13061431BF2750B0012AB3D /* TextbookFinderViewController.swift */; };
 		A13061471BF2750B0012AB3D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A13061451BF2750B0012AB3D /* Main.storyboard */; };
 		A13061491BF2750B0012AB3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A13061481BF2750B0012AB3D /* Assets.xcassets */; };
 		A130614C1BF2750B0012AB3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A130614A1BF2750B0012AB3D /* LaunchScreen.storyboard */; };
 		A13061571BF2750B0012AB3D /* HucksterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A13061561BF2750B0012AB3D /* HucksterTests.swift */; };
 		A13061621BF2750B0012AB3D /* HucksterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A13061611BF2750B0012AB3D /* HucksterUITests.swift */; };
+		A13061751BF2806D0012AB3D /* ActivitiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A13061741BF2806D0012AB3D /* ActivitiesViewController.swift */; };
+		A13061771BF280DF0012AB3D /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A13061761BF280DF0012AB3D /* ProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,8 +39,8 @@
 /* Begin PBXFileReference section */
 		A130613C1BF2750B0012AB3D /* Huckster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Huckster.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A130613F1BF2750B0012AB3D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A13061411BF2750B0012AB3D /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		A13061431BF2750B0012AB3D /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		A13061411BF2750B0012AB3D /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		A13061431BF2750B0012AB3D /* TextbookFinderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextbookFinderViewController.swift; sourceTree = "<group>"; };
 		A13061461BF2750B0012AB3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A13061481BF2750B0012AB3D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A130614B1BF2750B0012AB3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +51,8 @@
 		A130615D1BF2750B0012AB3D /* HucksterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HucksterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A13061611BF2750B0012AB3D /* HucksterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HucksterUITests.swift; sourceTree = "<group>"; };
 		A13061631BF2750B0012AB3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A13061741BF2806D0012AB3D /* ActivitiesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivitiesViewController.swift; sourceTree = "<group>"; };
+		A13061761BF280DF0012AB3D /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +103,8 @@
 		A130613E1BF2750B0012AB3D /* Huckster */ = {
 			isa = PBXGroup;
 			children = (
+				A13061781BF282880012AB3D /* ViewControllers */,
 				A130613F1BF2750B0012AB3D /* AppDelegate.swift */,
-				A13061411BF2750B0012AB3D /* FirstViewController.swift */,
-				A13061431BF2750B0012AB3D /* SecondViewController.swift */,
 				A13061451BF2750B0012AB3D /* Main.storyboard */,
 				A13061481BF2750B0012AB3D /* Assets.xcassets */,
 				A130614A1BF2750B0012AB3D /* LaunchScreen.storyboard */,
@@ -126,6 +129,17 @@
 				A13061631BF2750B0012AB3D /* Info.plist */,
 			);
 			path = HucksterUITests;
+			sourceTree = "<group>";
+		};
+		A13061781BF282880012AB3D /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				A13061411BF2750B0012AB3D /* HomeViewController.swift */,
+				A13061431BF2750B0012AB3D /* TextbookFinderViewController.swift */,
+				A13061741BF2806D0012AB3D /* ActivitiesViewController.swift */,
+				A13061761BF280DF0012AB3D /* ProfileViewController.swift */,
+			);
+			name = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,9 +273,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A13061441BF2750B0012AB3D /* SecondViewController.swift in Sources */,
+				A13061441BF2750B0012AB3D /* TextbookFinderViewController.swift in Sources */,
+				A13061771BF280DF0012AB3D /* ProfileViewController.swift in Sources */,
+				A13061751BF2806D0012AB3D /* ActivitiesViewController.swift in Sources */,
 				A13061401BF2750B0012AB3D /* AppDelegate.swift in Sources */,
-				A13061421BF2750B0012AB3D /* FirstViewController.swift in Sources */,
+				A13061421BF2750B0012AB3D /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
